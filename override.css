@@ -1,0 +1,44 @@
+
+#navbarSupportedContent{
+  padding-right: 1em;
+
+}
+
+body{
+  margin: 1em;
+  font-size: 1.5em;
+  color: gray;
+}
+
+card{
+  font-size: 1.2em;
+}
+
+ul{
+  list-style-type: none;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+  border: 1px solid rgba(0,0,0,.125);
+  background-color: white;
+  color: gray;
+  padding-right: .5rem;
+  padding-left: .5rem;
+}
+
+nav{
+  background-color: indigo;
+}
+
+nav a{
+  color: gray;
+  font-size: 1em;
+}
+
+.navbar-brand{
+  font-size:1.5em;
+}
+
+.card-title{
+  border-bottom: 1px solid rgba(0,0,0,.125);
+  padding: 0.5em 1em 0.8em 2em;
+}
