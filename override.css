@@ -3,7 +3,9 @@
   padding-right: 1em;
 
 }
-
+img{
+  height: 175px;
+}
 body{
   margin: 1em;
   font-size: 1.5em;
@@ -39,6 +41,13 @@ nav a{
 }
 
 .card-title{
+  border-top: 1px solid rgba(0,0,0,.125);
   border-bottom: 1px solid rgba(0,0,0,.125);
-  padding: 0.5em 1em 0.8em 2em;
+  padding-left: 0.8em;
+}
+.card-img-top{
+  padding: 1em;
+}
+.carousel-inner{
+  padding: 4em 4em 4em 4em;
 }
