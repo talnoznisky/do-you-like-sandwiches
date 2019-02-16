@@ -7,71 +7,150 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="override.css"/>
+    <link rel="stylesheet" href="sakura-style.css"/>
     <title>Sandwiches for Coders</title>
   </head>
   <body>
-<!---THE NAV-->
-  <nav class="navbar navbar-expand-lg">
-    <a class="navbar-brand cars-for-coders" href="#">Don't You Like Sandwiches</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-dark"><span class="navbar-toggler-icon"></span></span>
-    </button>
-
-    <div class="collapse navbar-collapse flex-row" id="navbarSupportedContent">
-
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Sandwich 1<span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Sandwich 2<span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Sandwich 3<span class="sr-only">(current)</span></a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-<div class="card-group container-fluid">
-  <div class="card">
-    <img src="imgs/sandwich1.png" class="card-img-top" alt="...">
-    <div class="card-title">
-      Features
-    </div>
-    <div class="card-body">
-        Roast beef <br/>
-        Fried onions <br/>
-        Provolone <br/>
-    </div>
-  </div>
-
-  <div class="card">
-    <img src="imgs/sandwich2.png" class="card-img-top" alt="...">
-    <div class="card-title">
-      Features
-    </div>
-    <div class="card-body">
-        Cheddar <br/>
-        Eggs <br/>
-        Bacon <br/>
-    </div>
-  </div>
-
-  <div class="card">
-  <img src="imgs/sandwich3.png" class="card-img-top" alt="...">
-    <div class="card-title">
-      Features
-    </div>
-    <div class="card-body">
-      Pickles <br/>
-      Lettuce <br/>
-      Meat variety <br/>
-    </div>
-
-
+<!--- NAV start -->
+<div class="navbar">
+  Don't you like sandwiches?
 </div>
+<!--- NAV end -->
 
+<!--- CAROUSEL start -->
+
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+      <div class="carousel-item active">
+        <!--ROW ONE -->
+        <div class="row">
+          <div class="col-md-6  col-sm-6">
+            <div class="card">
+              <div class="card-body">
+                <img src="imgs/sandwich1.png" class="card-img-top img-fluid" alt="...">
+                <div class="card-body">
+                  <h6 class="card-title">Features</h6>
+                    Roast beef<br/>
+                    Fried onions<br/>
+                    Provolone<br/>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-6">
+            <div class="card">
+              <div class="card-body">
+                <img src="imgs/sandwich2.png" class="card-img-top img-fluid" alt="...">
+                <div class="card-body">
+                  <h6 class="card-title">Features</h6>
+                  Cheddar <br/>
+                  Eggs <br/>
+                  Bacon <br/>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div class="row">
+      </div>
+    <!--ROW ONE END -->
+    <!--ROW TWO -->
+    <div class="carousel-item  container-fluid">
+      <div class="row">
+        <div class="col-md-6 col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <img src="imgs/sandwich3.png" class="card-img-top img-fluid" alt="...">
+              <div class="card-body">
+                <h6 class="card-title">Features</h6>
+                  Pickles<br/>
+                  Lettuce<br/>
+                  Meat variety<br/>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <img src="imgs/sandwich4.png" class="card-img-top img-fluid" alt="...">
+              <div class="card-body">
+                <h6 class="card-title">Features</h6>
+                Toast <br/>
+                Yellow cheese slice<br/>
+                Sprig o' sum'in<br/>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div class="row">
+    </div>
+    <!--ROW TWO end -->
+    <!--ROW THREE -->
+    <div class="carousel-item  container-fluid">
+      <div class="row">
+        <div class="col-md-6 col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <img src="imgs/sandwich5.png" class="card-img-top img-fluid" alt="...">
+              <div class="card-body">
+                <h6 class="card-title">Features</h6>
+                  Grilled bread<br/>
+                  Cheese<br/>
+                  Herb variety<br/>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <img src="imgs/sandwich6.png" class="card-img-top img-fluid" alt="...">
+              <div class="card-body">
+                <h6 class="card-title">Features</h6>
+                Tomato<br/>
+                Raw onion ring<br/>
+                Only one bread slice<br/>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div class="row">
+    </div>
+    <!--ROW THREE end -->
+    <!--ROW FOUR -->
+    <div class="carousel-item  container-fluid">
+      <div class="row">
+        <div class="col-md-6 col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <img src="imgs/sandwich7.png" class="card-img-top img-fluid" alt="...">
+              <div class="card-body">
+                <h6 class="card-title">Features</h6>
+                  Chicken breast, breaded<br/>
+                  Tarter sauce<br/>
+                  Toasty bun<br/>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <img src="imgs/sandwich8.png" class="card-img-top img-fluid" alt="...">
+              <div class="card-body">
+                <h6 class="card-title">Features</h6>
+                ????????<br/>
+                Sweet black beans?<br/>
+                ¯\_(ツ)_/¯<br/>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div class="row">
+    </div>
+    <!--ROW FOUR end -->
+  </div>
+</div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
